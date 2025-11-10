@@ -28,6 +28,7 @@ alert("Hola " + nombreCliente + ", ¡estas a punto de elegir tus cócteles!");
 
 let cocteles = ["negroni"];
 
+
 function Sumar(a, b) {
   return a + b;
 }
@@ -51,6 +52,12 @@ if (cantidad > limite_pedidos) {
 
 let pedidos = [];
 
+let contador = 0;
+
+for (let contador = 0; contador < 5; contador++) {
+    console.log(contador);
+}
+
 while(contador < cantidad) {
      let eleccion = prompt("Elegí el cóctel (" + cocteles.join(", ") + "):");
      pedidos.push(eleccion);
@@ -63,6 +70,9 @@ if (pedidos.length > 0) {
 } else {
   console.log("No se realizaron pedidos.");
 }
+
+let num1 = 7;
+let num2 = 6;
 
 let resultado = Sumar(num1, num2);
 alert("El resultado de la suma es: " + resultado);

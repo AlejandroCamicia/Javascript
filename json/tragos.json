@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "negroni",
+    "descripcion": "Cóctel clásico italiano con gin, vermut rojo y Campari.",
+    "precio": 2500,
+    "imagen": "../img/negroni.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "gintonic",
+    "descripcion": "Gin premium combinado con agua tónica y un toque de cítricos.",
+    "precio": 2200,
+    "imagen": "../img/gintonic.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "mojito",
+    "descripcion": "Trago refrescante cubano con ron blanco, menta, lima y soda.",
+    "precio": 2800,
+    "imagen": "../img/mojito.jpg"
+  }
+]

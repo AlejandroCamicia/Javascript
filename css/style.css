@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(230, 230, 230);
+    padding: 3em;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+input{
+    border-radius: .5em;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 1em;
+}
+button{
+    background-color: rgb(31, 70, 58);
+    color: darkturquoise;
+    padding: 1em 2em;
+    border-radius: 10em;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1em 0;
+    transition: .25s all ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkturquoise;
+    color: rgb(31, 70, 58);
+}
+hr{
+    border: none;
+    border-top: 1px solid lightgrey;
+    margin: 3em;
+}
+.trago-img {
+  width: 150px;     
+  height: 200px;     
+  object-fit: cover; 
+}

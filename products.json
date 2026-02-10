@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "Gin Tonic",
+    "descripcion": "Gin premium combinado con agua tónica y un toque de cítricos.",
+    "precio": 2300,
+    "imagen": "img/gintonic.jpg"
+  },
+  {
+    "nombre": "Negroni",
+    "descripcion": "Cóctel clásico italiano con gin, vermut rojo y Campari.",
+    "precio": 2800,
+    "imagen": "img/negroni.jpg"
+  }
+]
